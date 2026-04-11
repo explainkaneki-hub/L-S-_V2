@@ -65,7 +65,7 @@ module.exports = {
       ctx.fillText("🤖 BOT UPTIME", 60, 100);
       ctx.fillText(`⏳ ${upTimeStr}`, 60, 200);
       ctx.fillText(`⚡ Ping: ${ping}ms`, 60, 280);
-      ctx.fillText(`👤 Owner: Zefox`, 60, 360);
+      ctx.fillText(`👤 Owner: Killua`, 60, 360);
 
       const buffer = canvas.toBuffer("image/png");
       fs.writeFileSync(imagePath, buffer);
